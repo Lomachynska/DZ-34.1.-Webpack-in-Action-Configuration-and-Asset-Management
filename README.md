@@ -50,3 +50,50 @@ webpack-project/
 
 ... dist
 npm run build
+
+..
+nvm list available
+nvm install 18  # для Node.js 18.x
+nvm use 18  # або nvm use 20
+
+nvm use 18  # або nvm use 20
+
+node -v   # повинна бути версія 18.x або 20.x
+npm -v    # перевірте версію npm
+
+...
+npm run build
+
+
+... створення папки package.json
+npm init -y
+
+npm install
+npm run build
+
+
+
+... index.js створення
+mkdir src
+touch src/index.js - власноруч
+
+
+...створення
+touch webpack.config.js
+
+
+my-webpack-project/
+├── dist/                  # Папка для зібраних файлів
+├── node_modules/          # Папка з залежностями
+├── src/                   # Джерела
+│   ├── index.js           # Основний файл JS
+│   └── index.html         # Шаблон HTML
+├── webpack.config.js      # Конфігурація Webpack
+├── package.json           # Залежності та скрипти
+└── package-lock.json      # Лок файл для npm
+
+
+...запуск збірки
+npm run build
+...запуск сервера
+npm run start
